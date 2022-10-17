@@ -1,0 +1,208 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    border: solid 2px #666;
+    background-color: black;
+    color:aliceblue;
+    font-size: medium;
+    display:flex ;
+    justify-content: center;
+}
+
+.top-bar-rigth {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.list-horizontal {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+.p1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.icon {
+    margin: 0px;
+    padding: 10px;
+}
+
+.fa-instagram {
+    color: aliceblue;
+}
+
+.fa-facebook-f {
+    color: aliceblue;
+}
+
+.fa-envelope {
+    color: aliceblue;
+}
+
+.title {
+    font-family:'Playfair', 'Times new roman' ;
+    border: rgb(58, 57, 57) solid 4px;
+    font-size: 55px;
+    border-radius: 100%;
+    margin: 2% 35% 0% 35%; 
+    padding: 10px 10px 10px 10px ;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.title2 {
+    font-family:'Playfair', 'Times new roman' ;
+    border: rgb(58, 57, 57) solid 4px;
+    margin: 2% 25% 0% 25%; 
+    font-size: 19px;
+    border-radius: 5%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+}
+
+.banner1 {
+    position: relative;
+    min-height: 100vh;
+}
+
+.banner1 .bg {
+    height: 900px;
+    width: 1350px;
+    position: absolute;
+    display: flex;
+}
+
+.header-btn {
+    margin: 2% 35% 0% 35%; 
+    padding: 20px;
+    text-align: center;
+    opacity: 99%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner2 {
+    background-image: url(/assets/banner2.jpg);
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cardapio {
+    margin: 2% 35% 2% 35%; 
+    font-family:'Playfair', 'Times new roman' ;
+    border: rgb(58, 57, 57) solid 4px;
+    font-size: 55px;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #666;
+    opacity: 60%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img {
+    margin-bottom: 0%;
+    font-family:'Playfair', 'Times new roman' ;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    text-align: center;
+}
+
+.banner3 {
+    background-image: url(/assets/olive-oil-g8c440d2c4_1920.jpg);
+    opacity: 90%;
+
+}
+
+.cardapio-completo{
+    margin: 2% 5% 10% 5%; 
+    font-family:'Playfair', 'Times new roman' ;
+    border: rgb(58, 57, 57) solid 4px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 80%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.historia{
+    background-image: url(/assets/kitchen-gfca5e7d3b_1920.jpg);
+    font-family:'Playfair', 'Times new roman' ;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 80%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.history{
+    margin: 10% 30% 20% 30%; 
+    font-family:'Playfair', 'Times new roman' ;
+    border: rgb(58, 57, 57) solid 4px;
+    font-size: 55px;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 70%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.history1{
+    margin: 80% 25% 40% 25%; 
+    font-family:'Playfair', 'Times new roman' ;
+    border: rgb(58, 57, 57) solid 4px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    opacity: 70%;
+    justify-content: flex-start;
+    align-items: center;
+}
